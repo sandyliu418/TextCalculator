@@ -32,7 +32,7 @@ def prompt():
         while green:
             q2 = input("What is the first number you would you like to add? ") #5
             q2_is_num = detect_if_num(q2) # set result to whether it was a num
-            print("q2" + str(q2_is_num))
+            #print("q2" + str(q2_is_num))
             if q2_is_num == True:
                 green = False
         q3 = input("What is the second number you would you like to add? ")
