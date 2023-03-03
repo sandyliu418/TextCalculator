@@ -1,0 +1,11 @@
+To run the program on terminal, type "python3" and "copy path" from right click main.py
+and select "copy path".
+
+Questions:
+1. How to upload to GitHub?
+
+2. How to know when to upload to GitHub?
+
+3. Sometimes, when I am coding and after I put in an input nothing happens (even after I
+hit return), why does this happen? There is also no errors that show up either
+

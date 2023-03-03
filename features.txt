@@ -1,0 +1,69 @@
+Project started on February 16, 2023
+------------------------------------
+Week 2 - February 24, 2023
+
+Based on line42+43, we are writing psuedocode:
+
+# another question; do you want to add another number. if yes, it will say what is third number
+# person inputs number, do you want to add another numberif yes, it will say what is fourth number
+
+if yes, then execute function
+else: don't execute
+
+materials: use loop, functions (with parameters) and variable (count +=, increment)
+
+# loop will be for "do you want to add another number"
+
+moreQuestion = input("Do you want to add another number? Y/N")
+if moreQuestion == Y:
+    yesQuestion = True
+    while True:
+        startNumber()
+else: 
+    print("Byebye")
+
+# function will be for "it will say what is third, fourth... number"
+# parameter = third, fourth, fifth...
+    # increment is inside the function
+
+def startNumber(num):
+    # ask the question and store it in a variable
+    num = input("Please input the {} number you would like to add\n")
+    print("Ok, the total is" + num)
+
+--------
+Week 3:
+- Psuedo-code:
+goal: a loop that asks "do you want to add another number?"
+flower = true
+while flower:
+    "do you want to add another number?"
+    if yes:
+        that blob 
+    else:
+        do that
+
+
+
+
+
+
+
+
+
+
+
+
+Bugs to fix:
+- Currently, the calculator cannot add decimals
+
+
+- We might want to allow people to do calculations like 8+2-2/5 (enter a lump of numbers)
+    this can happen just at the very beginning, instead of asking +,-, we give another 
+    that allows people to enter it all
+- We should also let people do 8 + 2 - 6 in steps individually
+- Can we somehow do a memory function? How would that work or what would it look like? 
+    "solved: 1; working on two" then they will try to recall the math they have done
+
+want to write tests/scripts for this
+    look up: python unit tests in vscode
